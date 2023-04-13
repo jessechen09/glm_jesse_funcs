@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.2" type="partial_results">
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[purple_200(U),black(U),teal_200(U),white(U),teal_700(U),purple_700(U),purple_500(U)],drawable[error_image(U),ic_launcher_foreground(U),ic_launcher_background(U),placeholder_image(U),ic_launcher_foreground_1(R)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[private_key(U),app_name(U)],style[Theme_Glm(U),Theme_MaterialComponents_DayNight_DarkActionBar(R)];9^c,d^a^9,e^a^9,11^12^7^6^4^3^5^2^0^1;;;"/>
+    </map>
+    <map id="MediaCapabilities">
+        <entry
+            name="hasVideoUsage"
+            boolean="true"/>
+    </map>
+
+</incidents>

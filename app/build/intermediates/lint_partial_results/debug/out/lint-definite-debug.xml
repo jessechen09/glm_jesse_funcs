@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.2" type="incidents">
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v24`) is unnecessary; `minSdkVersion` is 31. Merge all the resources in this folder into `drawable`.">
+        <fix-data file="$APP/src/main/res/drawable-v24" folderName="drawable" requiresApi="31"/>
+        <location
+            file="$APP/src/main/res/drawable-v24"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 31. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <fix-data file="$APP/src/main/res/mipmap-anydpi-v26" folderName="mipmap-anydpi" requiresApi="31"/>
+        <location
+            file="$APP/src/main/res/mipmap-anydpi-v26"/>
+    </incident>
+
+    <incident
+        id="BadHostnameVerifier"
+        severity="warning"
+        message="`verify` always returns `true`, which could cause insecure network traffic due to trusting TLS/SSL server certificates for wrong hostnames">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function2969.java"
+            line="20"
+            column="28"
+            startOffset="668"
+            endLine="20"
+            endColumn="34"
+            endOffset="674"/>
+    </incident>
+
+    <incident
+        id="CustomX509TrustManager"
+        severity="warning"
+        message="Implementing a custom `X509TrustManager` is error-prone and likely to be insecure. It is likely to disable certificate validation altogether, and is non-trivial to implement correctly without calling Android&apos;s default implementation.">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function2969.java"
+            line="26"
+            column="65"
+            startOffset="902"
+            endLine="26"
+            endColumn="81"
+            endOffset="918"/>
+    </incident>
+
+    <incident
+        id="TrustAllX509TrustManager"
+        severity="warning"
+        message="`checkServerTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function2969.java"
+            line="34"
+            column="25"
+            startOffset="1153"
+            endLine="34"
+            endColumn="43"
+            endOffset="1171"/>
+    </incident>
+
+    <incident
+        id="TrustAllX509TrustManager"
+        severity="warning"
+        message="`checkClientTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function2969.java"
+            line="31"
+            column="25"
+            startOffset="1051"
+            endLine="31"
+            endColumn="43"
+            endOffset="1069"/>
+    </incident>
+
+    <incident
+        id="PackageManagerGetSignatures"
+        severity="warning"
+        message="Reading app signatures from `getPackageInfo`: The app signatures could be exploited if not validated properly; see issue explanation for details">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function4222.java"
+            line="17"
+            column="106"
+            startOffset="555"
+            endLine="17"
+            endColumn="135"
+            endOffset="584"/>
+    </incident>
+
+    <incident
+        id="CustomX509TrustManager"
+        severity="warning"
+        message="Implementing a custom `X509TrustManager` is error-prone and likely to be insecure. It is likely to disable certificate validation altogether, and is non-trivial to implement correctly without calling Android&apos;s default implementation.">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function2968.java"
+            line="31"
+            column="67"
+            startOffset="996"
+            endLine="31"
+            endColumn="83"
+            endOffset="1012"/>
+    </incident>
+
+    <incident
+        id="TrustAllX509TrustManager"
+        severity="warning"
+        message="`checkClientTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function2968.java"
+            line="33"
+            column="29"
+            startOffset="1071"
+            endLine="33"
+            endColumn="47"
+            endOffset="1089"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-data conditional="true"/>
+        <location
+            file="$APP/src/main/java/com/example/glm/Function2968.java"
+            line="24"
+            column="9"
+            startOffset="627"
+            endLine="24"
+            endColumn="60"
+            endOffset="678"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is never &lt; 31">
+        <fix-data conditional="false"/>
+        <location
+            file="$APP/src/main/java/com/example/glm/Function2968.java"
+            line="24"
+            column="64"
+            startOffset="682"
+            endLine="24"
+            endColumn="121"
+            endOffset="739"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is never &lt; 31">
+        <fix-data conditional="false"/>
+        <location
+            file="$APP/src/main/java/com/example/glm/Function2959.java"
+            line="25"
+            column="9"
+            startOffset="569"
+            endLine="25"
+            endColumn="54"
+            endOffset="614"/>
+    </incident>
+
+    <incident
+        id="GetInstance"
+        severity="warning"
+        message="ECB encryption mode should not be used">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function4228.java"
+            line="14"
+            column="40"
+            startOffset="372"
+            endLine="14"
+            endColumn="62"
+            endOffset="394"/>
+    </incident>
+
+    <incident
+        id="GetInstance"
+        severity="warning"
+        message="ECB encryption mode should not be used">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function4230.java"
+            line="16"
+            column="44"
+            startOffset="507"
+            endLine="16"
+            endColumn="66"
+            endOffset="529"/>
+    </incident>
+
+    <incident
+        id="GetInstance"
+        severity="warning"
+        message="`Cipher.getInstance` should not be called without setting the encryption mode and padding">
+        <location
+            file="$APP/src/main/java/com/example/glm/Function15227.java"
+            line="11"
+            column="40"
+            startOffset="349"
+            endLine="11"
+            endColumn="45"
+            endOffset="354"/>
+    </incident>
+
+    <incident
+        id="GetInstance"
+        severity="warning"
+        message="`Cipher.getInstance` should not be called without setting the encryption mode and padding">
+        <location
+            file="$APP/src/main/java/com/example/glm/kudi/Function2621.java"
+            line="15"
+            column="44"
+            startOffset="484"
+            endLine="15"
+            endColumn="49"
+            endOffset="489"/>
+    </incident>
+
+    <incident
+        id="GetInstance"
+        severity="warning"
+        message="`Cipher.getInstance` should not be called without setting the encryption mode and padding">
+        <location
+            file="$APP/src/main/java/com/example/glm/kudi/Function2623.java"
+            line="14"
+            column="44"
+            startOffset="429"
+            endLine="14"
+            endColumn="49"
+            endOffset="434"/>
+    </incident>
+
+    <incident
+        id="GradleDynamicVersion"
+        severity="warning"
+        message="Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (junit:junit:4.+)">
+        <fix-data coordinate="junit:junit:4.+"/>
+        <location
+            file="$APP/build.gradle"
+            line="39"
+            column="24"
+            startOffset="940"
+            endLine="39"
+            endColumn="41"
+            endOffset="957"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.4.0 is available: 1.6.1">
+        <fix-replace
+            description="Change to 1.6.1"
+            family="Update versions"
+            oldString="1.4.0"
+            replacement="1.6.1"/>
+        <location
+            file="$APP/build.gradle"
+            line="36"
+            column="20"
+            startOffset="744"
+            endLine="36"
+            endColumn="56"
+            endOffset="780"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.4.0 is available: 1.8.0">
+        <fix-replace
+            description="Change to 1.8.0"
+            family="Update versions"
+            oldString="1.4.0"
+            replacement="1.8.0"/>
+        <location
+            file="$APP/build.gradle"
+            line="37"
+            column="20"
+            startOffset="800"
+            endLine="37"
+            endColumn="64"
+            endOffset="844"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-nearby than 18.0.1 is available: 18.5.0">
+        <fix-replace
+            description="Change to 18.5.0"
+            family="Update versions"
+            oldString="18.0.1"
+            replacement="18.5.0"/>
+        <location
+            file="$APP/build.gradle"
+            line="38"
+            column="20"
+            startOffset="864"
+            endLine="38"
+            endColumn="72"
+            endOffset="916"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.3 is available: 1.1.5">
+        <fix-replace
+            description="Change to 1.1.5"
+            family="Update versions"
+            oldString="1.1.3"
+            replacement="1.1.5"/>
+        <location
+            file="$APP/build.gradle"
+            line="40"
+            column="31"
+            startOffset="988"
+            endLine="40"
+            endColumn="62"
+            endOffset="1019"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.4.0 is available: 3.5.1">
+        <fix-replace
+            description="Change to 3.5.1"
+            family="Update versions"
+            oldString="3.4.0"
+            replacement="3.5.1"/>
+        <location
+            file="$APP/build.gradle"
+            line="41"
+            column="31"
+            startOffset="1050"
+            endLine="41"
+            endColumn="75"
+            endOffset="1094"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-perf than 19.1.0 is available: 20.3.1">
+        <fix-replace
+            description="Change to 20.3.1"
+            family="Update versions"
+            oldString="19.1.0"
+            replacement="20.3.1"/>
+        <location
+            file="$APP/build.gradle"
+            line="61"
+            column="20"
+            startOffset="2073"
+            endLine="61"
+            endColumn="62"
+            endOffset="2115"/>
+    </incident>
+
+</incidents>

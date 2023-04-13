@@ -1,0 +1,7 @@
+#Wed Apr 12 13:35:54 MST 2023
+base.1=/Users/jessechen/Documents/GitHub/glm_jesse/glm/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/Users/jessechen/Documents/GitHub/glm_jesse/glm/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
